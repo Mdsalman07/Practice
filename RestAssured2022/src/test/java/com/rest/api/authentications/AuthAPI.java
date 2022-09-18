@@ -33,6 +33,35 @@ public void basic_Auth_API_Test() {
 //1. with header: append your token with bearer
 //2. with oauth2() method: No need to add Bearer,just to pass the token value
 
+
+@Test
+public void basic_Auth_API1_Test() {
+		
+		given().log().all()
+		.auth()
+		.basic("admin", "admin")
+		.when().log().all()
+		.get("http://the-internet.herokuapp.com/basic_auth")
+		.then().log().all()
+		.assertThat()
+		.statusCode(200);
+		
+	}
+
+@Test
+public void basic_Auth_Digest_Test() {
+		
+		given().log().all()
+		.auth()
+		.digest("admin", "admin")
+		.when().log().all()
+		.get("http://the-internet.herokuapp.com/basic_auth")
+		.then().log().all()
+		.assertThat()
+		.statusCode(200);
+		
+	}
+
   @Test
   public void OAuth2_API_Test() {
 	  given().log().all()
