@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-11T09:40:45 IST" name="Default suite" finished-at="2022-09-11T09:40:51 IST" duration-ms="5997">
+  <suite started-at="2022-09-24T12:46:21 IST" name="Default suite" finished-at="2022-09-24T12:46:23 IST" duration-ms="2170">
     <groups>
     </groups>
-    <test started-at="2022-09-11T09:40:45 IST" name="Default test" finished-at="2022-09-11T09:40:51 IST" duration-ms="5997">
-      <class name="com.rest.api.authentications.AuthAPI">
-        <test-method signature="basic_Auth_Digest_Test()[pri:0, instance:com.rest.api.authentications.AuthAPI@2bbf180e]" started-at="2022-09-11T09:40:45 IST" name="basic_Auth_Digest_Test" finished-at="2022-09-11T09:40:51 IST" duration-ms="5974" status="PASS">
+    <test started-at="2022-09-24T12:46:21 IST" name="Default test" finished-at="2022-09-24T12:46:23 IST" duration-ms="2170">
+      <class name="com.rest.api.post.POSTAPIWithPOJO">
+        <test-method signature="createuser_With_POJO_Test()[pri:0, instance:com.rest.api.post.POSTAPIWithPOJO@6193932a]" started-at="2022-09-24T12:46:21 IST" name="createuser_With_POJO_Test" finished-at="2022-09-24T12:46:23 IST" duration-ms="2148" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basic_Auth_Digest_Test -->
-      </class> <!-- com.rest.api.authentications.AuthAPI -->
+        </test-method> <!-- createuser_With_POJO_Test -->
+      </class> <!-- com.rest.api.post.POSTAPIWithPOJO -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
