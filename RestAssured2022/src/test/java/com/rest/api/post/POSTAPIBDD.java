@@ -4,6 +4,9 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -44,5 +47,8 @@ public class POSTAPIBDD {
 	    System.out.println(tokenID);
 		
 	}
+	
+
+
 
 }

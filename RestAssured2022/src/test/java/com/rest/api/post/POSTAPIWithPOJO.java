@@ -11,6 +11,12 @@ import io.restassured.http.ContentType;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
+
+/**
+ * 
+ * @author Mohammed Salman
+ *
+ */
 public class POSTAPIWithPOJO {
 
 	// create a user
